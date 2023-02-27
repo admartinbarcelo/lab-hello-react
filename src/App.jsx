@@ -12,8 +12,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="App-icons">
-          <img src={logo} alt="ironhack-logo-xs" />
-          <img src={menu} alt="menu-top-xs.png" />
+          <div className="App-logo">
+            <img src={logo} alt="ironhack-logo-xs" />
+          </div>
+          <div className="App-menu">
+            <img src={menu} alt="menu-top-xs.png" />
+          </div>
         </div>
         <div className="App-text">
           <h1>Say Hello to ReactJS</h1>
